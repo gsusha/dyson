@@ -1,0 +1,232 @@
+@media (max-width: 768px) {
+  .cta {
+    .cta__body {
+      .cta__img {
+        display: none;
+      }
+    }
+  }
+
+  .sales {
+    .sales__body {
+      .sales__header {
+        justify-content: space-between;
+        width: 100%;
+        gap: 40px;
+        .sales__logo {
+          margin: 0;
+        }
+      }
+      .sales__content {
+        flex-direction: column;
+        .sales__text {
+          .sales__btn a {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .airwrap {
+    .airwrap__body {
+      flex-direction: column;
+      .airwrap__text {
+        .airwrap__desc {
+          margin: 0 0 40px 0;
+        }
+      }
+    }
+  }
+
+  .tech {
+    .tech__body {
+      .tech__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .nozzles {
+    .nozzles__body {
+      flex-direction: column;
+      align-items: center;
+      .nozzles__text {
+        .nozzles__desc {
+          margin: 0 0 40px 0;
+        }
+      }
+      .nozzles__img {
+        max-width: 300px;
+      }
+    }
+  }
+
+  .feedback {
+    .feedback__body {
+      .feedback__desc {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .catalog {
+    .catalog__body {
+      .catalog__title {
+        font-size: 30px;
+      }
+      .catalog__items {
+        .catalog__item {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  .review {
+    .review__body {
+      .review__title {
+        font-size: 30px;
+      }
+      .review__text {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .order {
+    .order__body {
+      .order__title {
+        font-size: 30px;
+      }
+      .order__steps {
+        flex-direction: column;
+
+        .order__step {
+          padding: 0 0 30px 0;
+          &::after {
+            width: 2px;
+            height: 100%;
+            left: 14px;
+            top: 30px;
+          }
+          .order__name, .order__desc {
+            padding: 0 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer__body {
+      flex-direction: column;
+      gap: 60px;
+
+      .footer__logo {
+        max-width: 100px;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 426px) {
+  .cta {
+    .cta__body {
+      align-items: center;
+      .cta__text {
+        .cta__logo {
+          max-width: 140px;
+        }
+        .cta__supertitle {
+          font-size: 20px;
+        }
+        .cta__title {
+          font-size: 30px;
+        }
+        .cta__btn a {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .sales {
+    .sales__body {
+      .sales__header {
+        .sales__logo {
+          display: none;
+        }
+      }
+      .sales__content {
+        .sales__text {
+          .sales__desc {
+            font-size: 30px;
+            span {
+              font-size: 36px;
+            }
+          }
+          .sales__btn a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .airwrap {
+    .airwrap__body {
+      .airwrap__text {
+        .airwrap__logo {
+          max-width: 140px;
+        }
+        .airwrap__desc {
+          font-size: 20px;
+        }
+        .airwrap__btn a {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .nozzles {
+    .nozzles__body {
+      .nozzles__text {
+        .nozzles__logo {
+          max-width: 140px;
+        }
+        .nozzles__desc {
+          font-size: 20px;
+        }
+        .nozzles__btn a {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .feedback {
+    .feedback__body {
+      .feedback__desc {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .catalog {
+    .catalog__body {
+      .catalog__title {
+        font-size: 24px;
+      }
+      .catalog__items {
+        .catalog__item {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+}

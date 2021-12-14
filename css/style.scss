@@ -139,7 +139,7 @@ html, body {
 
   @media (max-width:768px) {
     .header__row {
-      height: 30px;
+      height: 10px;
     }
     .header__burger {
       display: block;
@@ -189,11 +189,7 @@ html, body {
     }
 
     .header__img {
-      flex: 0 1 20px;
-    }
-
-    .header__name {
-      font-size: 20px;
+      max-width: 70px;
     }
 
     .header__menu {
@@ -774,3 +770,6 @@ html, body {
     }
   }
 }
+
+
+@import "media.scss";
