@@ -473,12 +473,12 @@ html, body {
   line-height: 1.55;
 }
 .airwrap .airwrap__body .airwrap__text .airwrap__desc span {
-  color: #cc6a2d;
+  color: #c4398d;
   font-weight: 500;
 }
 .airwrap .airwrap__body .airwrap__text .airwrap__btn a {
   display: inline-block;
-  background: #cc6a2d;
+  background: #c4398d;
   color: #fff;
   font-size: 23px;
   padding: 15px 40px;
